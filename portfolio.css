@@ -502,7 +502,7 @@ body.dark .row .skills .skill-item {
 }
 .portfolio-item-inner .portfolio-img .mask .mask-heading {
   color: #fff6f6;
-  font-size: 0.5vw; /*newly edited code=====================================*/
+  font-size: 1vw;
   font-weight: 700;
   width: 60%;
   text-align: center;
