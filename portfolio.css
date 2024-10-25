@@ -502,7 +502,7 @@ body.dark .row .skills .skill-item {
 }
 .portfolio-item-inner .portfolio-img .mask .mask-heading {
   color: #fff6f6;
-  font-size: 25px;
+  font-size: 0.5vw; /*newly edited code=====================================*/
   font-weight: 700;
   width: 60%;
   text-align: center;
@@ -658,12 +658,19 @@ body.dark .row .skills .skill-item {
     flex: 0 0 50%;
     max-width: 50%;
   }
+
+  /*Newly edited======================================================*/
   .portfolio-item-inner .portfolio-img .mask .mask-heading {
-    font-size: 20px;
+    font-size: 4vw;
   }
-  .portfolio-item-inner .portfolio-img .mask .mask-text {
-    font-size: 14px;
+  .portfolio-item-inner .portfolio-img .mask-text {
+    font-size: 2.6px;
   }
+  .home-section .home-info .profession {
+    box-sizing: border-box;
+    height: 75px;
+  }
+  /*Newly edited======================================================*/
   .contact .contact-form .row-1 {
     flex: 0 0 100%;
     max-width: 100%;
