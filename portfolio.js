@@ -35,12 +35,11 @@ $(document).ready(function () {
 $(document).on("scroll", function () {
   checkVisibility();
 });
-s;
 /*==============Typing Animation==============*/
 var type = new Typed(".typing", {
   strings: ["Web Developer", "Full-Stack Developer"],
-  typeSpeed: 100,
-  BackSpeed: 100,
+  typeSpeed: 50,
+  backSpeed: 50,
   loop: true,
 });
 
