@@ -5,49 +5,47 @@ function checkVisibility() {
   var tags = $(".fadein");
 
   for (var i = 0; i < tags.length; i++) {
-      var tag = tags[i];
+    var tag = tags[i];
 
-      // Adjust the offset or add additional conditions as needed
-      if ($(tag).offset().top < pageBottom) {
-          // Check if the element doesn't already have the "visible" class
-          if (!$(tag).hasClass("visible")) {
-              $(tag).addClass("visible");
+    // Adjust the offset or add additional conditions as needed
+    if ($(tag).offset().top < pageBottom) {
+      // Check if the element doesn't already have the "visible" class
+      if (!$(tag).hasClass("visible")) {
+        $(tag).addClass("visible");
 
-              // Additional actions when an element becomes visible can be added here
-          }
-      } else {
-          // Check if the element has the "visible" class
-          if ($(tag).hasClass("visible")) {
-              $(tag).removeClass("visible");
-
-              // Additional actions when an element becomes hidden can be added here
-          }
+        // Additional actions when an element becomes visible can be added here
       }
+    } else {
+      // Check if the element has the "visible" class
+      if ($(tag).hasClass("visible")) {
+        $(tag).removeClass("visible");
+
+        // Additional actions when an element becomes hidden can be added here
+      }
+    }
   }
 }
 
 // Run the checkVisibility function when the document is ready
-$(document).ready(function() {
+$(document).ready(function () {
   checkVisibility();
 });
 
 // Run the checkVisibility function on scroll
-$(document).on("scroll", function() {
+$(document).on("scroll", function () {
   checkVisibility();
 });
-
-
+s;
 /*==============Typing Animation==============*/
-var type=new Typed(".typing", {
-  strings:["Web Developer", "Frontend Designer","Full-Stack Developer"],
-  typeSpeed:100,
-  BackSpeed:100,
-  loop:true
-})
-
+var type = new Typed(".typing", {
+  strings: ["Web Developer", "Full-Stack Developer"],
+  typeSpeed: 100,
+  BackSpeed: 100,
+  loop: true,
+});
 
 /*==========="aside-bar" toggle when clicking nav-toggle===========*/
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
   let myQuery = document.querySelector(".aside");
 
   document.querySelector(".nav-toggle").addEventListener("click", () => {
@@ -71,14 +69,13 @@ document.addEventListener("DOMContentLoaded", function() {
   window.addEventListener("scroll", () => {
     let myElement = document.querySelector(".aside");
     let myElement2 = document.querySelector(".nav-toggle");
-  
+
     if (myElement) {
       myElement.removeAttribute("id");
-    } 
+    }
 
     if (myElement2) {
       myElement2.removeAttribute("id");
-    } 
+    }
   });
 });
-

@@ -631,8 +631,8 @@ body.dark .row .skills .skill-item {
     margin-top: 10px;
   }
   .home-section .home-img img {
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 300px;
+    max-height: 300px;
   }
   .about-content .row .education {
     flex: 0 0 70%;
@@ -687,9 +687,8 @@ body.dark .row .skills .skill-item {
     width: 70%;
   }
   .home-section .home-img img {
-    max-width: 100px;
-    max-height: 100px;
-    margin-top: -50px;
+    max-width: 150px;
+    max-height: 150px;
   }
   .personal-info .row .info-item {
     flex: 0 0 100%;
