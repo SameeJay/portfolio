@@ -578,6 +578,7 @@ body.dark .row .skills .skill-item {
 }
 .contact-form .submit {
   cursor: pointer;
+  margin-bottom: 40px;
 }
 
 /* ==========Responsive========== */
@@ -658,8 +659,6 @@ body.dark .row .skills .skill-item {
     flex: 0 0 50%;
     max-width: 50%;
   }
-
-  /*Newly edited======================================================*/
   .portfolio-item-inner .portfolio-img .mask .mask-heading {
     font-size: 4vw;
   }
@@ -670,7 +669,6 @@ body.dark .row .skills .skill-item {
     box-sizing: border-box;
     height: 75px;
   }
-  /*Newly edited======================================================*/
   .contact .contact-form .row-1 {
     flex: 0 0 100%;
     max-width: 100%;
